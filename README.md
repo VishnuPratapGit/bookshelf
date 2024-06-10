@@ -1,9 +1,32 @@
-### `npm run build`
+# My React Application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a React application that allows users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure you have Node.js and npm installed on your local machine.
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone [https://github.com/VishnuPratapGit/bookshelf.git]
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Usage
+
+Start the development server
+
+```bash
+npm start
+```
+
+Open your web browser and navigate to http://localhost:3000
+You should see the application running locally.
