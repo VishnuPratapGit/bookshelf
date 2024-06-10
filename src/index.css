@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(20, 20, 20);
+  color: ghostwhite;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-btn:hover {
+  border: 2px solid white;
+}
